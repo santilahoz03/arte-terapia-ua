@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ваш доступ · Посібник з Арт-Терапії</title>
+<style>
+:root {
+  --bg: #FFF8F4; --bg2: #F6ECFF; --a1: #D9C9F7; --a1d: #B89FE0;
+  --a2: #F3B8D2; --a2d: #E98B7A; --title: #4E4036; --body: #6F6258;
+  --body2: #8A7A70; --card: #FFFFFF; --green: #5BAA7A;
+  --grad: linear-gradient(135deg, #D9C9F7, #F3B8D2);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--body); font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+.wrap { max-width: 600px; margin: 0 auto; padding: 48px 20px 80px; }
+.hero { text-align: center; margin-bottom: 40px; }
+.badge-top { display: inline-block; background: var(--grad); color: var(--title); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 6px 16px; border-radius: 99px; margin-bottom: 20px; }
+.hero h1 { font-size: 26px; line-height: 1.25; color: var(--title); margin-bottom: 10px; font-weight: 700; }
+.hero p { font-size: 16px; color: var(--body2); line-height: 1.55; }
+.card {
+  background: var(--card); border: 2px solid var(--a1); border-radius: 16px;
+  padding: 28px 24px; margin-bottom: 20px; text-align: center; position: relative; overflow: hidden;
+}
+.card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--grad); }
+.card-icon { font-size: 48px; margin-bottom: 16px; }
+.card h2 { font-size: 20px; color: var(--title); font-weight: 700; margin-bottom: 8px; }
+.card p { font-size: 14px; color: var(--body2); line-height: 1.6; margin-bottom: 20px; }
+.status-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #FFF3E0; border: 1.5px solid #FFB74D; border-radius: 99px;
+  padding: 10px 20px; font-size: 14px; font-weight: 600; color: #E65100;
+}
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: #FF9800; animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+.note { font-size: 13px; color: var(--body2); text-align: center; margin-top: 24px; line-height: 1.6; }
+.footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--a1); }
+.footer p { font-size: 13px; color: var(--body2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="badge-top">Арт Терапія · Ваш доступ</div>
+    <h1>Посібник з Арт-Терапії</h1>
+    <p>100 Вправ для Самопізнання, Зцілення і Внутрішнього Зростання</p>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🎨</div>
+    <h2>Ваші матеріали готуються</h2>
+    <p>Ми готуємо ваш посібник з усіма вправами і бонусами. Незабаром ви отримаєте доступ до завантаження.</p>
+    <div class="status-badge">
+      <div class="status-dot"></div>
+      В процесі підготовки
+    </div>
+  </div>
+
+  <p class="note">
+    Якщо у вас є запитання, напишіть нам.<br>
+    Дякуємо за вашу покупку! 🙏
+  </p>
+
+  <div class="footer">
+    <p>Посібник з Арт-Терапії · Наступний крок</p>
+  </div>
+</div>
+</body>
+</html>
