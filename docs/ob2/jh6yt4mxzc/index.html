@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ваш доступ · Щоденник Звільнення</title>
+<style>
+:root {
+  --bg: #FFF8F4; --bg2: #F6ECFF; --a1: #D9C9F7; --a1d: #B89FE0;
+  --a2: #F3B8D2; --a2d: #E98B7A; --title: #4E4036; --body: #6F6258;
+  --body2: #8A7A70; --card: #FFFFFF; --green: #5BAA7A;
+  --grad: linear-gradient(135deg, #D9C9F7, #F3B8D2);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--body); font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+.wrap { max-width: 600px; margin: 0 auto; padding: 48px 20px 80px; }
+.hero { text-align: center; margin-bottom: 40px; }
+.badge-top { display: inline-block; background: var(--grad); color: var(--title); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 6px 16px; border-radius: 99px; margin-bottom: 20px; }
+.hero h1 { font-size: 26px; line-height: 1.25; color: var(--title); margin-bottom: 10px; font-weight: 700; }
+.hero p { font-size: 16px; color: var(--body2); line-height: 1.55; }
+.stats { display: flex; gap: 12px; justify-content: center; margin: 24px 0 32px; flex-wrap: wrap; }
+.stat { background: var(--card); border: 1.5px solid var(--a1); border-radius: 12px; padding: 14px 20px; text-align: center; min-width: 100px; }
+.stat .num { font-size: 24px; font-weight: 700; color: var(--title); }
+.stat .lbl { font-size: 11px; color: var(--body2); text-transform: uppercase; letter-spacing: .05em; margin-top: 2px; }
+.sec-header { display: flex; align-items: center; gap: 8px; margin: 32px 0 16px; }
+.sec-header h2 { font-size: 17px; color: var(--title); font-weight: 700; }
+.sec-line { flex: 1; height: 1.5px; background: var(--a1); }
+.core-card {
+  background: var(--card); border: 2px solid var(--a1d); border-radius: 16px;
+  padding: 24px 20px; margin-bottom: 24px; position: relative; overflow: hidden;
+}
+.core-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--grad); }
+.core-card .label { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--a1d); margin-bottom: 8px; }
+.core-card h3 { font-size: 19px; color: var(--title); font-weight: 700; margin-bottom: 6px; }
+.core-card .desc { font-size: 14px; color: var(--body2); line-height: 1.55; margin-bottom: 16px; }
+.core-card .meta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+.core-card .pill { font-size: 11px; background: var(--bg2); border: 1px solid var(--a1); border-radius: 99px; padding: 4px 12px; color: var(--body); }
+.btn-dl {
+  display: block; width: 100%; background: var(--grad); color: var(--title);
+  font-size: 15px; font-weight: 700; text-decoration: none; text-align: center;
+  padding: 14px 20px; border-radius: 12px; transition: opacity .15s;
+}
+.btn-dl:hover { opacity: .85; }
+.note { font-size: 13px; color: var(--body2); text-align: center; margin-top: 24px; line-height: 1.6; }
+.footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--a1); }
+.footer p { font-size: 13px; color: var(--body2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="badge-top">Щоденник · 30 Сесій</div>
+    <h1>Щоденник Звільнення — 30 Сесій</h1>
+    <p>30 структурованих сторінок: пишеш, малюєш, відпускаєш</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num">30</div><div class="lbl">Сесій</div></div>
+    <div class="stat"><div class="num">3</div><div class="lbl">Фази</div></div>
+    <div class="stat"><div class="num">PDF</div><div class="lbl">Формат</div></div>
+  </div>
+
+  <div class="sec-header"><h2>📥 Ваш матеріал</h2><div class="sec-line"></div></div>
+
+  <div class="core-card">
+    <div class="label">Доступний зараз</div>
+    <h3>Щоденник Звільнення — 30 Сесій</h3>
+    <div class="desc">Вправа відкрила щось усередині — щоденник це завершує. 30 сторінок зі структурованими запитаннями для кожної сесії. Роздрукуй і використовуй назавжди.</div>
+    <div class="meta">
+      <span class="pill">📄 PDF</span>
+      <span class="pill">🖨️ Роздруковується</span>
+      <span class="pill">30 сесій</span>
+    </div>
+    <a class="btn-dl" href="../../archivos/ob2-shchodennyk-zvilnennya.pdf" download>⬇ Завантажити PDF</a>
+  </div>
+
+  <p class="note">Дякуємо за вашу покупку! 🙏</p>
+
+  <div class="footer">
+    <p>Посібник з Арт-Терапії · Наступний крок</p>
+  </div>
+</div>
+</body>
+</html>
